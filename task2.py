@@ -33,7 +33,7 @@ def can_string_be_float(user_value):
         number_of_minuses = 0
         for ch in user_value:
             if ch=='-':
-                number_of_minuses=number_of_minuses + 1
+                number_of_minuses=number_of_minuses +  1
         if number_of_minuses > 1:
             return False
         if number_of_minuses == 1:
